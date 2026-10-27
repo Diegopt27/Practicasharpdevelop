@@ -46,6 +46,7 @@ namespace Practicasharpdevelop
 			this.lblResultado = new System.Windows.Forms.Label();
 			this.txtNumero1 = new System.Windows.Forms.TextBox();
 			this.txtNumero2 = new System.Windows.Forms.TextBox();
+			this.btnmodulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lblNumero1
@@ -133,11 +134,22 @@ namespace Practicasharpdevelop
 			this.txtNumero2.Size = new System.Drawing.Size(100, 20);
 			this.txtNumero2.TabIndex = 9;
 			// 
+			// btnmodulo
+			// 
+			this.btnmodulo.Location = new System.Drawing.Point(242, 51);
+			this.btnmodulo.Name = "btnmodulo";
+			this.btnmodulo.Size = new System.Drawing.Size(75, 23);
+			this.btnmodulo.TabIndex = 10;
+			this.btnmodulo.Text = "Modulo";
+			this.btnmodulo.UseVisualStyleBackColor = true;
+			this.btnmodulo.Click += new System.EventHandler(this.BtnmoduloClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(381, 305);
+			this.Controls.Add(this.btnmodulo);
 			this.Controls.Add(this.txtNumero2);
 			this.Controls.Add(this.txtNumero1);
 			this.Controls.Add(this.lblResultado);
@@ -153,6 +165,7 @@ namespace Practicasharpdevelop
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnmodulo;
 		private System.Windows.Forms.TextBox txtNumero2;
 		private System.Windows.Forms.TextBox txtNumero1;
 		private System.Windows.Forms.Label lblResultado;

@@ -67,5 +67,19 @@ namespace Practicasharpdevelop
 				MessageBox.Show("No se puede dividir entre cero.");
 			}
 		}
+		
+		void BtnmoduloClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtNumero1.Text);
+			double b=double.Parse(txtNumero2.Text);
+			if (b!=0)
+			{
+				lblResultado.Text="Resultado :"+(a%b);
+			}
+			else
+			{
+				MessageBox.Show("No se puede calcular el modulo entre cero.");
+			}			
+		}
 	}
 }
