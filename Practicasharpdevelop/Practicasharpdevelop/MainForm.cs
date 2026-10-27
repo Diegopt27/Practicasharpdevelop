@@ -81,5 +81,32 @@ namespace Practicasharpdevelop
 				MessageBox.Show("No se puede calcular el modulo entre cero.");
 			}			
 		}
+		
+		void BtnCalcularClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtA.Text);
+			double b=double.Parse(txtB.Text);
+			double c=double.Parse(txtC.Text);
+			
+			if (a==0)
+			{
+				MessageBox.Show("el valor de A no puede ser cero.");
+					return;
+			}
+			
+			double discriminante =b*b-4*a*c;
+			
+			if (discriminante<0)
+			{
+				MessageBox.Show("la ecuacion no tiene soluciones reales.");
+				return;
+			}
+			
+			double x1=(-b+Math.Sqrt(discriminante))/(2*a);
+			double x2=(-b+Math.Sqrt(discriminante))/(2*a);
+			
+			lblx1.Text="X1:"+x1;
+			lblx2.Text="X2:"+x2;
+		}
 	}
 }

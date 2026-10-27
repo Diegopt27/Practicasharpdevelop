@@ -47,6 +47,12 @@ namespace Practicasharpdevelop
 			this.txtNumero1 = new System.Windows.Forms.TextBox();
 			this.txtNumero2 = new System.Windows.Forms.TextBox();
 			this.btnmodulo = new System.Windows.Forms.Button();
+			this.txtA = new System.Windows.Forms.TextBox();
+			this.txtB = new System.Windows.Forms.TextBox();
+			this.txtC = new System.Windows.Forms.TextBox();
+			this.btnCalcular = new System.Windows.Forms.Button();
+			this.lblx1 = new System.Windows.Forms.Label();
+			this.lblx2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// lblNumero1
@@ -144,11 +150,64 @@ namespace Practicasharpdevelop
 			this.btnmodulo.UseVisualStyleBackColor = true;
 			this.btnmodulo.Click += new System.EventHandler(this.BtnmoduloClick);
 			// 
+			// txtA
+			// 
+			this.txtA.Location = new System.Drawing.Point(160, 155);
+			this.txtA.Name = "txtA";
+			this.txtA.Size = new System.Drawing.Size(100, 20);
+			this.txtA.TabIndex = 11;
+			// 
+			// txtB
+			// 
+			this.txtB.Location = new System.Drawing.Point(160, 181);
+			this.txtB.Name = "txtB";
+			this.txtB.Size = new System.Drawing.Size(100, 20);
+			this.txtB.TabIndex = 12;
+			// 
+			// txtC
+			// 
+			this.txtC.Location = new System.Drawing.Point(160, 207);
+			this.txtC.Name = "txtC";
+			this.txtC.Size = new System.Drawing.Size(100, 20);
+			this.txtC.TabIndex = 13;
+			// 
+			// btnCalcular
+			// 
+			this.btnCalcular.Location = new System.Drawing.Point(285, 179);
+			this.btnCalcular.Name = "btnCalcular";
+			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+			this.btnCalcular.TabIndex = 14;
+			this.btnCalcular.Text = "Calcular";
+			this.btnCalcular.UseVisualStyleBackColor = true;
+			this.btnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
+			// 
+			// lblx1
+			// 
+			this.lblx1.Location = new System.Drawing.Point(207, 243);
+			this.lblx1.Name = "lblx1";
+			this.lblx1.Size = new System.Drawing.Size(100, 23);
+			this.lblx1.TabIndex = 15;
+			this.lblx1.Text = "X1:";
+			// 
+			// lblx2
+			// 
+			this.lblx2.Location = new System.Drawing.Point(207, 270);
+			this.lblx2.Name = "lblx2";
+			this.lblx2.Size = new System.Drawing.Size(100, 23);
+			this.lblx2.TabIndex = 16;
+			this.lblx2.Text = "X2:";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(381, 305);
+			this.Controls.Add(this.lblx2);
+			this.Controls.Add(this.lblx1);
+			this.Controls.Add(this.btnCalcular);
+			this.Controls.Add(this.txtC);
+			this.Controls.Add(this.txtB);
+			this.Controls.Add(this.txtA);
 			this.Controls.Add(this.btnmodulo);
 			this.Controls.Add(this.txtNumero2);
 			this.Controls.Add(this.txtNumero1);
@@ -165,6 +224,12 @@ namespace Practicasharpdevelop
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label lblx2;
+		private System.Windows.Forms.Label lblx1;
+		private System.Windows.Forms.Button btnCalcular;
+		private System.Windows.Forms.TextBox txtC;
+		private System.Windows.Forms.TextBox txtB;
+		private System.Windows.Forms.TextBox txtA;
 		private System.Windows.Forms.Button btnmodulo;
 		private System.Windows.Forms.TextBox txtNumero2;
 		private System.Windows.Forms.TextBox txtNumero1;
