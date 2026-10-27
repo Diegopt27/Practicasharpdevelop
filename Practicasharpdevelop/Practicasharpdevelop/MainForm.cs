@@ -29,5 +29,43 @@ namespace Practicasharpdevelop
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnsumarClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtNumero1.Text);
+			double b=double.Parse(txtNumero2.Text);
+			
+			lblResultado.Text="Resultado :"+(a+b);
+		}
+		
+		void BtnrestarClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtNumero1.Text);
+			double b=double.Parse(txtNumero2.Text);
+			
+			lblResultado.Text="Resultado :"+(a-b);
+		}
+		
+		void BtnmultiplicarClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtNumero1.Text);
+			double b=double.Parse(txtNumero2.Text);
+			
+			lblResultado.Text="Resultado :"+(a*b);			
+		}
+		
+		void BtndividirClick(object sender, EventArgs e)
+		{
+			double a=double.Parse(txtNumero1.Text);
+			double b=double.Parse(txtNumero2.Text);
+			if (b!=0)
+			{
+				lblResultado.Text="Resultado :"+(a/b);
+			}
+			else
+			{
+				MessageBox.Show("No se puede dividir entre cero.");
+			}
+		}
 	}
 }

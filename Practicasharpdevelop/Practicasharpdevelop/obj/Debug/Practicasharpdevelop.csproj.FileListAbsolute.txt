@@ -1,0 +1,7 @@
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\bin\Debug\Practicasharpdevelop.exe
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\bin\Debug\Practicasharpdevelop.pdb
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\obj\Debug\Practicasharpdevelop.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\obj\Debug\Practicasharpdevelop.MainForm.resources
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\obj\Debug\Practicasharpdevelop.csproj.GenerateResource.Cache
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\obj\Debug\Practicasharpdevelop.exe
+C:\Users\CC2_PC40\Practicasharpdevelop\Practicasharpdevelop\Practicasharpdevelop\obj\Debug\Practicasharpdevelop.pdb
